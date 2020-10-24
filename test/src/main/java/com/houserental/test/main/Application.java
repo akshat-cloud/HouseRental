@@ -1,4 +1,4 @@
-package com.sweta.test.main;
+package com.houserental.test.main;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -12,11 +12,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * Created by sweta on 6/19/19.
+ * Created by Akshat on 6/19/20.
  */
 @EnableAutoConfiguration
 @SpringBootApplication
-@ComponentScan(basePackages = "com.sweta.test")
+@ComponentScan(basePackages = "com.houserental.test")
 public class Application  {
     private static final Logger logger = LogManager.getLogger(Application.class);
 
